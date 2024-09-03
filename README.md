@@ -1,8 +1,8 @@
 # C# Winform
 
-## Displays Current Time 
-1. Label 
+## Label 
+1. Displays Current Time 
 2. UTC
-## Start Time , End Time
-1. Button
+## Button
+1. Start Time , End Time
 2. saves Time when Clicked
