@@ -25,11 +25,12 @@ for example, U.S. summertime is at March and November )
 
 ### Win32_CurrentTime class
 
-Not recommended.   
+#### Not recommended.   
 (you have to get hour, minute, second each items individually)    
 The Win32_CurrentTime abstract is a singleton WMI class (ref. MSDN)    
 
 ### CIM APIs
+#### Recommended. Normally used in Automation Equipments  
 Get Time Information from outer source.  
 CIM refers to Computer Integrated Manufacturing.  
 Each Corporation has its own CIM.  
