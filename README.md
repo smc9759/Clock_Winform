@@ -30,7 +30,11 @@ Not recommended.
 The Win32_CurrentTime abstract is a singleton WMI class (ref. MSDN)    
 
 ### CIM APIs
+Get Time Information from outer source.  
 CIM refers to Computer Integrated Manufacturing.  
+Each Corporation has its own CIM.  
+For Example, Semiconductor Backend Packaging Process Equipment  
+LG Display | Samsung uses different CIM.  
 
 
 ## Controls
