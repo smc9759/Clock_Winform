@@ -10,10 +10,18 @@
 3. UTC Time 
 4. Win32_CurrentTime class
 
+## Difference DST <-> UTC
+### Common Disadvantages
+Over time, the internal clock of a PC can experience drift, where the clock may run slightly faster or slower than the real time. This drift can accumulate and cause differences in displayed time if the clock is not periodically corrected.
+
+### DST
+1. Pros : Fit in Single PC , with no Communication
+2. Cons : 
+
 ## Win32_CurrentTime class
 
-The Win32_CurrentTime abstract is a singleton WMI class that describes a point in time by using the component items, such as milliseconds, seconds, minutes, hours, days, days of the week, week in the month, months, quarters, and years.
-(ref. MSDN)
+The Win32_CurrentTime abstract is a singleton WMI class (ref. MSDN)
+not recommended. (you have to get hour, minute, second each items individually)
 ## Controls
 
 1. Label Clock;
