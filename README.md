@@ -15,16 +15,21 @@
 
 ## Difference DST <-> UTC
 ### Common Disadvantages
-Over time, the internal clock of a PC can experience drift, where the clock may run slightly faster or slower than the real time. This drift can accumulate and cause differences in displayed time if the clock is not periodically corrected.
+the internal clock of a PC may run slightly faster or slower than the real time. 
+This drift can accumulate.
 
 ### DST
 1. Pros : Fit in Single PC , with no Communication
-2. Cons : 
+2. Cons : Summertime ( 1hour Deviation occurs two times a year - for example, U.S. summertime is at March and November )
 
-## Win32_CurrentTime class
+### Win32_CurrentTime class
 
 The Win32_CurrentTime abstract is a singleton WMI class (ref. MSDN)
 not recommended. (you have to get hour, minute, second each items individually)
+
+### CIM APIs
+CIM refers to Computer Integrated Manufacturing.
+
 
 ## Controls
 
