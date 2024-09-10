@@ -28,13 +28,11 @@
 
 ## Difference DST <-> UTC
 ### Common Disadvantages
-the internal clock of a PC may run slightly faster or slower than the real time.   
-This drift can accumulate.  
+the internal clock of a PC may run slightly faster or slower than the real time. This drift can accumulate.  
 
 ### DST
 1. Pros : Fit in Single PC , with no Communication
-2. Cons : Summertime ( 1hour Deviation occurs two times a year )  
-for example, U.S. summertime is at March and November )  
+2. Cons : Summertime ( 1hour Deviation occurs two times a year ) ( for example, U.S. summertime is at March and November )  
 
 ### Win32_CurrentTime class
 
@@ -45,7 +43,6 @@ The Win32_CurrentTime abstract is a singleton WMI class (ref. MSDN)
 ### CIM APIs
 #### Recommended. Normally used in Automation Equipments  
 Get Time Information from outer source.  
-CIM refers to Computer Integrated Manufacturing.  
-Each Corporation has its own CIM.  
+CIM refers to Computer Integrated Manufacturing. Each Corporation has its own CIM.  
 For Example, Semiconductor Backend Packaging Process Equipment  
 LG Display | Samsung uses different CIM.  
