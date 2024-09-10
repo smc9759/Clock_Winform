@@ -20,12 +20,13 @@ This drift can accumulate.
 
 ### DST
 1. Pros : Fit in Single PC , with no Communication
-2. Cons : Summertime ( 1hour Deviation occurs two times a year )
+2. Cons : Summertime ( 1hour Deviation occurs two times a year )  
 for example, U.S. summertime is at March and November )  
 
 ### Win32_CurrentTime class
 
-Not recommended. (you have to get hour, minute, second each items individually)  
+Not recommended.   
+(you have to get hour, minute, second each items individually)    
 The Win32_CurrentTime abstract is a singleton WMI class (ref. MSDN)    
 
 ### CIM APIs
