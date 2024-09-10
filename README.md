@@ -13,6 +13,19 @@
 3. UTC Time 
 4. Win32_CurrentTime class
 
+## Controls
+
+1. Label Clock;
+2. Button StartTime;
+3. Button EndTime;
+
+
+
+## Button
+1. Function - saves Time when Clicked
+
+  
+
 ## Difference DST <-> UTC
 ### Common Disadvantages
 the internal clock of a PC may run slightly faster or slower than the real time.   
@@ -36,15 +49,3 @@ CIM refers to Computer Integrated Manufacturing.
 Each Corporation has its own CIM.  
 For Example, Semiconductor Backend Packaging Process Equipment  
 LG Display | Samsung uses different CIM.  
-
-
-## Controls
-
-1. Label Clock;
-2. Button StartTime;
-3. Button EndTime;
-
-
-
-## Button
-1. Function - saves Time when Clicked
